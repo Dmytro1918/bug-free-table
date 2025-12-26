@@ -1,0 +1,32 @@
+
+.delete-btn {
+    font-size: 0.8rem;
+    color: #252525;
+    text-transform: uppercase;
+    padding: 2x 3px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #f08181;
+    box-shadow: 2px 2px #252525;
+    cursor: pointer;
+    margin: 0.5rem 1rem;
+    transition: transform 0.3s ease-in-out
+}
+
+.delete-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.delete-btn:hover {
+   transform: scale(1.05)
+}
+
+.sum-cell {
+    margin-right: 1.5rem;
+}
+
+.row-number {
+    text-align: center;
+    background-color: rgb(236, 236, 255);
+}

@@ -1,0 +1,35 @@
+.matrix-cell {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    border: 1px solid #ddd;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s;
+    position: relative;
+}
+
+.matrix-cell:hover {
+    transform: scale(1.1);
+    z-index: 10;
+    border-color: #666;
+}
+
+.matrix-cell.highlighted {
+    box-shadow: inset 0 0 0 2px #ffeb3b;
+    background-color: #fff176 !important; 
+}
+
+.sum-cell {
+    padding: 0.7rem;
+    font-weight: bold;
+    background-color: #f5f5f5;
+    cursor: help;
+}
+
+.delete-btn {
+    background: #ff5252;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}

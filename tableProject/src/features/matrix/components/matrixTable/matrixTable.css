@@ -1,0 +1,43 @@
+
+.matrix-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.matrix-header { 
+    font-family: 'Cause';
+    font-weight: 300;
+    font-size: 1rem;
+    font-style: normal;
+}
+.percentile-row {
+    td{
+        padding: 10px;
+        background-color: rgb(236, 236, 255);
+    }
+}
+
+.add-row-btn {
+    max-width: fit-content;
+    font-size: 1rem;
+    color: #252525;
+    text-transform: uppercase;
+    padding: 10x 15px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #fafafa;
+    box-shadow: 3px 5px #252525;
+    cursor: pointer;
+    margin: 2rem 0;
+    transition: transform 0.3s ease-in-out
+}
+
+.add-row-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.add-row-btn:hover {
+   transform: scale(1.05)
+}

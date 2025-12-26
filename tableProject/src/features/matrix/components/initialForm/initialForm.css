@@ -1,0 +1,68 @@
+
+.form-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.setup-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+}
+
+.input-form-parent {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.form-label {
+    margin-right: 2rem;
+    font-family: 'Cause';
+    font-weight: 300;
+}
+
+.input {
+    width: 100%;
+    max-width: 190px;
+    height: 44px;
+    background-color: #05060f0a;
+    border-radius: .5rem;
+    padding: 0 1rem;
+    border: 2px solid transparent;
+    font-size: 1rem;
+    transition: border-color .3s cubic-bezier(.25,.01,.25,1) 0s, color .3s cubic-bezier(.25,.01,.25,1) 0s, background .2s cubic-bezier(.25,.01,.25,1) 0s;
+}
+
+.input:hover, .input:focus, .input-group:hover .input {
+  outline: none;
+  border-color: #05060f;
+}
+
+.input-group:hover, .input:focus {
+  color: #05060fc2;
+}
+
+.create-btn {
+    font-size: 1rem;
+    color: #252525;
+    text-transform: uppercase;
+    padding: 5x 10px;
+    border-radius: 10px;
+    border: 2px solid #252525;
+    background: #fafafa;
+    box-shadow: 3px 3px #252525;
+    cursor: pointer;
+    margin: 1rem 0;
+    transition: transform 0.3s ease-in-out
+}
+
+.create-btn:active {
+    box-shadow: none;
+    transform: translate(3px, 3px);
+}
+
+.create-btn:hover {
+   transform: scale(1.05)
+}
