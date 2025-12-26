@@ -60,7 +60,7 @@ src/
 │   └── types/             # TypeScript interfaces and types
 ├── assets/                # Static files & styles
 └── App.tsx                # Main entry point & conditional rendering logic
-
+```
 ---
 
 ## 🚀 Getting Started
